@@ -1,0 +1,339 @@
+@media (min-width:992px){
+
+.heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    margin: 40px;
+    text-align: center;
+}
+
+.chicken-info{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    margin-top:50px;
+}
+
+.beef-info{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top:50px;
+}
+
+.sushi-info{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top:50px;
+}
+
+.chicken{
+    width:30%;
+    float: left;
+    background-color: #AAAAAA;
+    padding: 10px;
+    border:3px solid black;
+    box-sizing: border-box;
+    margin-left: 40px;
+    position: relative;
+}
+
+.beef{
+    width:30%;
+    float: left;
+    background-color:#AAAAAA;
+    padding: 10px;
+    border:3px solid black; 
+    box-sizing: border-box;
+    margin-left: 20px;
+    position: relative;
+}
+
+.sushi{
+    width:30%;
+    float: left;
+    background-color:#AAAAAA;
+    padding: 10px;
+    border:3px solid black;
+    box-sizing: border-box;
+    margin-left: 20px;
+    position: relative;
+}
+
+.chickenh{
+    background-color: hotpink;
+    font-size: 20px;
+    display: inline;
+    position: relative;
+    float:right;
+    padding: 10px;
+    text-align: right;
+    border:3px solid black;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin:-13px;
+    
+}
+
+.beefh{
+    background-color:lightcoral;
+    font-size: 20px;
+    display: inline;
+    position: relative;
+    padding: 10px;
+    text-align: right;
+    border:3px solid black;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    float:right;
+    margin:-13px;
+    
+}
+
+.sushih{
+    background-color:mediumseagreen;
+    font-size: 20px;
+    display: inline;
+    position: relative;
+    padding: 10px;
+    text-align: right;
+    border:3px solid black;
+    box-sizing: border-box;
+    padding-right: 30px;
+    padding-left: 30px;
+    float:right;
+    margin:-13px;
+    
+    
+}
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+    .chicken{
+        width:40%;
+        float: left;
+        background-color: #AAAAAA;
+        padding: 10px;
+        border:3px solid black;
+        box-sizing: border-box;
+        margin-left: 40px;
+        position: relative;
+    }
+    
+    .beef{
+        width:40%;
+        float: left;
+        background-color:#AAAAAA;
+        padding: 10px;
+        border:3px solid black; 
+        box-sizing: border-box;
+        margin-left: 20px;
+        position: relative;
+    }
+    
+    .sushi{
+        width:82%;
+        background-color:#AAAAAA;
+        float: left;
+        padding: 10px;
+        border:3px solid black;
+        box-sizing: border-box;
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .heading{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 50px;
+        margin: 40px;
+        text-align: center;
+    }
+    
+    .chicken-info{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 17px;
+        font-weight: bold;
+        margin-top:50px;
+    }
+    
+    .beef-info{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 17px;
+        font-weight: bold;
+        margin-top:50px;
+    }
+    
+    .sushi-info{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 17px;
+        font-weight: bold;
+        margin-top:50px;
+        
+    }
+
+    .chickenh{
+        background-color: hotpink;
+        font-size: 20px;
+        display: inline;
+        position: relative;
+        float:right;
+        padding: 10px;
+        text-align: right;
+        border:3px solid black;
+        box-sizing: border-box;
+        position: relative;
+        padding-left: 20px;
+        margin:-13px;
+    }
+    
+    .beefh{
+        background-color:lightcoral;
+        font-size: 20px;
+        display: inline;
+        position: relative;
+        float:right;
+        padding: 10px;
+        text-align: right;
+        border:3px solid black;
+        box-sizing: border-box;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: relative;
+        padding-left: 20px;
+        margin:-13px;
+    }
+    
+    .sushih{
+        background-color:mediumseagreen;
+        font-size: 20px;
+        display: inline;
+        position: relative;
+        float:right;
+        padding: 10px;
+        text-align: right;
+        border:3px solid black;
+        box-sizing: border-box;
+        padding-right: 30px;
+        padding-left: 30px;
+        position: relative;
+        padding-left: 20px;
+        margin:-13px;
+    }
+
+}
+
+@media only screen and (max-width:767px){
+
+    .chicken{
+        width:80%;
+        background-color: #AAAAAA;
+        padding: 10px;
+        border:3px solid black;
+        box-sizing: border-box;
+        margin-left: 40px;
+        position: relative;
+    }
+    
+    .beef{
+        width:80%;
+        background-color:#AAAAAA;
+        padding: 10px;
+        border:3px solid black; 
+        box-sizing: border-box;
+        margin-left: 40px;
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .sushi{
+        width:80%;
+        background-color:#AAAAAA;
+        padding: 10px;
+        border:3px solid black;
+        box-sizing: border-box;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    
+    .heading{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 50px;
+        margin: 40px;
+        text-align: center;
+    }
+    
+    .chicken-info{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 17px;
+        font-weight: bold;
+        margin-top:50px;
+    }
+    
+    .beef-info{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 17px;
+        font-weight: bold;
+        margin-top:50px;
+    }
+    
+    .sushi-info{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 17px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-top:50px;
+    }
+
+    .chickenh{
+        background-color: hotpink;
+        font-size: 20px;
+        display: inline;
+        position: relative;
+        padding: 10px;
+        text-align: right;
+        border:3px solid black;
+        box-sizing: border-box;
+        padding-left: 20px;
+        position: relative;
+        float:right;
+        margin:-13px;
+    }
+    
+    .beefh{
+        background-color:lightcoral;
+        font-size: 20px;
+        display: inline;
+        position: relative;
+        padding: 10px;
+        text-align: right;
+        border:3px solid black;
+        box-sizing: border-box;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: relative;
+        float:right;
+        margin:-13px;
+    }
+    
+    .sushih{
+        background-color:mediumseagreen;
+        font-size: 20px;
+        display: inline;
+        position: relative;
+        padding: 10px;
+        text-align: right;
+        border:3px solid black;
+        box-sizing: border-box;
+        padding-right: 30px;
+        padding-left: 30px;
+        position: relative;
+        float:right;
+        margin:-13px;
+    }
+
+}
